@@ -1,0 +1,58 @@
+.name {
+    font-size: 60px;
+    color: #CCD6F6;
+}
+
+.hello {
+    color: #64FFDA;
+}
+
+.title {
+    color: #8892B0;
+    margin: 10px 0 0;
+    font-size: 60px;
+}
+
+.text {
+    margin: 20px 0 0;
+    max-width: 540px;
+    color: #8892B0;
+    line-height: 30px;
+}
+
+.special {
+    color: #64FFDA;
+}
+
+.resume {
+    border: 1px solid #64FFDA;
+    background-color: #121b27;
+    margin: 50px 0px;
+    padding: 0.5rem 4rem;
+    color: #64FFDA;
+    border-radius: var(--border-radius);
+}
+
+.resume:hover {
+    border: 1px solid #157a63;
+}
+
+@media only screen and (max-width: 576px) {
+    .name {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .special {
+        padding: 30px 0px;
+    }
+
+    .hello {
+        padding-bottom: 20px;
+    }
+
+
+}

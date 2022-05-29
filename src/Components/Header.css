@@ -1,0 +1,21 @@
+.header-resume {
+    background-color: #1d293a;
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+    border-radius: var(--border-radius);
+}
+
+.header-resume:hover {
+    border: 1px solid #157a63;
+}
+
+.nav {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 576px) {
+    .header-resume {
+        padding: 7px 0px;
+        width: 20%;
+    }
+}
