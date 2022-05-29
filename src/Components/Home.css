@@ -35,6 +35,7 @@
 
 .resume:hover {
     border: 1px solid #157a63;
+    background-color: #157a63;
 }
 
 @media only screen and (max-width: 576px) {

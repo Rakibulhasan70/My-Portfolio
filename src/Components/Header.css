@@ -7,10 +7,39 @@
 
 .header-resume:hover {
     border: 1px solid #157a63;
+    background-color: #157a63;
 }
 
 .nav {
     font-size: 13px;
+}
+
+.social {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: red;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.ul li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    margin: 0px auto;
+    color: red;
 }
 
 @media only screen and (max-width: 576px) {
@@ -18,4 +47,6 @@
         padding: 7px 0px;
         width: 20%;
     }
+
+
 }

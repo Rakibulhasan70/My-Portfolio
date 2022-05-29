@@ -21,6 +21,15 @@ const Header = () => {
                     </Navbar.Collapse >
                 </Container >
             </Navbar >
+            {/* <div className='social text-white'>
+                <ul className='ul'>
+                    <li>s</li>
+                    <li>c</li>
+                    <li>d</li>
+                    <li>x</li>
+                    <li>v</li>
+                </ul>
+            </div> */}
         </div >
     );
 };

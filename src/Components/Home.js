@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import './Home.css'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <div>
                 <button className='rounded ms-3 resume'>Resume</button>
             </div>
+            <About></About>
         </div>
     );
 };
