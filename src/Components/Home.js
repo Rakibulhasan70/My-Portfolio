@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 import About from './About';
 import './Home.css'
 
@@ -13,6 +14,14 @@ const Home = () => {
                 <button className='rounded ms-3 resume'>Resume</button>
             </div>
             <About></About>
+            <h2 className='about abouts'><span>My Skills</span></h2>
+            <div className='d-flex skillsDiv '>
+                <Link to='/home' ><button className='skills me-2'>Web</button></Link>
+                <Link to='/home/tools'> <button className='skills me-2'>Tools</button></Link>
+                <Link to='/home/other'> <button className='skills me-2'>Other</button ></Link>
+
+            </div>
+            <Outlet></Outlet>
         </div>
     );
 };

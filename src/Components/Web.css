@@ -1,0 +1,14 @@
+.stack {
+    color: #64FFDA;
+}
+
+.react {
+    color: #8892B0;
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 576px) {
+    .node {
+        margin-top: 0px;
+    }
+}

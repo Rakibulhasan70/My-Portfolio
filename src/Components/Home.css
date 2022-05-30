@@ -38,6 +38,19 @@
     background-color: #157a63;
 }
 
+.skills {
+    border: 1px solid #64FFDA;
+    background-color: #121b27;
+    padding: 9px 2rem;
+    color: #64FFDA;
+    border-radius: 3px;
+}
+
+.skills:hover {
+    border: 1px solid #157a63;
+    background-color: #157a63;
+}
+
 @media only screen and (max-width: 576px) {
     .name {
         font-size: 30px;
@@ -54,6 +67,11 @@
     .hello {
         padding-bottom: 20px;
     }
+
+    .skillsDiv {
+        margin-left: 20px;
+    }
+
 
 
 }
