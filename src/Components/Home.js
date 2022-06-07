@@ -17,7 +17,7 @@ const Home = () => {
                     <button className='rounded ms-3 resume '><a href="https://drive.google.com/file/d/1e9g5uvlfqyMZ9e3vsZJjoGLP1fdMHQU_/view?usp=sharing" style={{ textDecoration: 'none', color: '#64FFDA' }}>Resume</a></button>
                 </div>
                 <About></About>
-                <h2 className='about abouts '><span >My Skills</span></h2>
+                <h2 className='about abouts my-5'><span >My Skills</span></h2>
                 <div className='d-flex skillsDiv '>
                     <Link to='/home' ><button className='skills me-2'>Web</button></Link>
                     <Link to='/home/tools'> <button className='skills me-2'>Tools</button></Link>

@@ -7,7 +7,7 @@ const Project1 = () => {
         <div className='container div' >
             <div className='row ' >
                 <div className='col-lg-6 des'  >
-                    <h4 className='Menufacture '>2. Car-Manufacture</h4>
+                    <h4 className='Menufacture '>2. Warehouse Shop</h4>
                     <h4 className='manufacture-title full'>Full-Stack Project</h4>
                     <p className='project-des '>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                     <div className='featuress '>

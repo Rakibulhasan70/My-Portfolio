@@ -10,8 +10,9 @@
     background-color: #157a63;
 }
 
-.nav {
+.navbars {
     font-size: 13px;
+    color: black !important;
 }
 
 .social {

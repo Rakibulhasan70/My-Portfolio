@@ -11,7 +11,7 @@ const Project2 = () => {
                         <img src={car2} alt="" />
                     </div>
                     <div className='col-lg-6  '>
-                        <h4 className='Warehouse '>3. Car-Manufacture</h4>
+                        <h4 className='Warehouse '>3. Service Provider</h4>
                         <h4 className='Warehouse-title'>Full-Stack Project</h4>
                         <p className='project-description '>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                         <div className='feature '>
@@ -24,6 +24,7 @@ const Project2 = () => {
                                 <a href="https://assignment-12-client-c7d17.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
                             </div>
                         </div>
+                        <button className='skills more'>show more</button>
                     </div>
                 </div>
             </div>
