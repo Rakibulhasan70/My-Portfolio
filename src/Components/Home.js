@@ -3,7 +3,8 @@ import { Link, Outlet } from 'react-router-dom';
 import About from './About';
 import Projects from '../Components/Projects'
 import './Home.css'
-
+import Project1 from './Project1';
+import Project2 from './Project2';
 const Home = () => {
     return (
         <div className='container mt-4 text-white'>
@@ -25,6 +26,8 @@ const Home = () => {
                 <Outlet></Outlet>
             </div>
             <Projects></Projects>
+            <Project1></Project1>
+            <Project2></Project2>
         </div>
     );
 };

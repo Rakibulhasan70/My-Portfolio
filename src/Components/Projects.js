@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css'
 import car2 from '../../src/image/car2.jpg'
 
+
 const Projects = () => {
     return (
         <div className='container'>
@@ -10,10 +11,10 @@ const Projects = () => {
                 <div className='project-img col-lg-6 mt-5 '>
                     <img src={car2} alt="" />
                 </div>
-                <div className='col-lg-6 mt-5 '>
+                <div className='col-lg-6  '>
                     <h4 className='Warehouse'>1. Car-Manufacture</h4>
                     <h4 className='Warehouse-title'>Full-Stack Project</h4>
-                    <p className='project-description'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p className='project-description '>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                     <div className='feature '>
                         <p className='padding'>Reactjs</p>
                         <p className='padding'>NodeJs</p>
@@ -25,8 +26,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
     );
 };
