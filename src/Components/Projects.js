@@ -14,7 +14,12 @@ const Projects = () => {
                 <div className='col-lg-6  '>
                     <h4 className='Warehouse'>1. Car-Manufacture</h4>
                     <h4 className='Warehouse-title'>Full-Stack Project</h4>
-                    <p className='project-description '>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p className='project-description '>You can not login with fake token data or expired data.
+                        We provide us for many extra services.
+                        You can increase your purces item within maximum quantity
+                        Admin can add or deleted the prats item
+
+                    </p>
                     <div className='feature '>
                         <p className='padding'>Reactjs</p>
                         <p className='padding'>NodeJs</p>

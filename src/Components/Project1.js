@@ -9,7 +9,7 @@ const Project1 = () => {
                 <div className='col-lg-6 des'  >
                     <h4 className='Menufacture '>2. Warehouse Shop</h4>
                     <h4 className='manufacture-title full'>Full-Stack Project</h4>
-                    <p className='project-des '>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p className='project-des '>This is My Electronic Grocery website. In this wesite i was showing my all products which is very qualityful. And i also showoing some speciall offer prodcuts. If you are not login you can not show all products and order some products and update.</p>
                     <div className='featuress '>
                         <p className='padding'>Reactjs</p>
                         <p className='padding'>NodeJs</p>

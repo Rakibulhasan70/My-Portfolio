@@ -14,7 +14,7 @@ const Header = () => {
                         <Nav className="ms-auto nav">
                             <Nav.Link className='text-white ms-3 ' as={NavLink} to="/home">Home</Nav.Link>
                             <Nav.Link className='text-white ms-3' as={NavLink} to="/projects">Projects</Nav.Link>
-                            <Nav.Link className='text-white ms-3' as={NavLink} to="/contact">Contact</Nav.Link>
+                            <Nav.Link className='text-white ms-3' href="home#contact">Contact</Nav.Link>
                             <Nav.Link className='text-white ms-3' as={NavLink} to="/about">About</Nav.Link>
                             <button className='rounded ms-3 header-resume'><a href="https://drive.google.com/file/d/1e9g5uvlfqyMZ9e3vsZJjoGLP1fdMHQU_/view?usp=sharing" style={{ textDecoration: 'none', color: '#64FFDA' }}>Resume</a></button>
                         </Nav>
