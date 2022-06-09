@@ -1,5 +1,5 @@
 import React from 'react';
-import car2 from '../../src/image/car2.jpg'
+import gym from '../../src/image/gym.jpg'
 import './Project2.css'
 
 const Project2 = () => {
@@ -8,7 +8,7 @@ const Project2 = () => {
             <div className='container div diver'>
                 <div className='row '>
                     <div className='project-img col-lg-6 mt-5 '>
-                        <img src={car2} alt="" />
+                        <img src={gym} alt="" />
                     </div>
                     <div className='col-lg-6  '>
                         <h4 className='Warehouse '>3. Service Provider</h4>
@@ -20,8 +20,8 @@ const Project2 = () => {
                             <p className='padding'>Expressjs</p>
                             <p className='padding'>Firebase</p>
                             <div className='ms-auto '>
-                                <a href="https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Rakibulhasan70"> <i class="fa-brands fa-github padding   github me-3"></i></a>
-                                <a href="https://assignment-12-client-c7d17.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
+                                <a href="https://github.com/Rakibulhasan70/Independent-service-provider"> <i class="fa-brands fa-github padding   github me-3"></i></a>
+                                <a href="https://assignment-10-eecce.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
                             </div>
                         </div>
                         <button className='skills more'>show more</button>

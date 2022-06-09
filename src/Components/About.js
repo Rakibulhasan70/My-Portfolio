@@ -8,7 +8,7 @@ const About = () => {
             <h2 className='about'><span>About Me</span></h2>
             <div className="row gx-5">
                 <div className="col-lg-7 description">
-                    Hello! I'm a passionate Front-End Developer. I develop web applications and desktop applications. My core skills are based on JavaScript and ReactJS. I love to make the web more open to the world. I am also doing my bachelor's degree in science background from National University at Chittagong, Bangladesh. I have completed my web development course from ProgrammingHero by Jhankar Mahbub. I have done 10+ projects using, CSS, JavaScript, NodaJS, and API. I'm available for any kind of job opportunity that suits my interest.
+                    Hello! I'm a passionate MERN-Stack Developer. I develop web applications and desktop applications. My core skills are based on JavaScript and ReactJS. I love to make the web more open to the world. I am also doing my bachelor's degree in science background from National University at Chittagong, Bangladesh. I have completed my web development course from ProgrammingHero by Jhankar Mahbub. I have done 10+ projects using, CSS, JavaScript, NodaJS, and API. I'm available for any kind of job opportunity that suits my interest.
                     <div className='my-3 icons' >
                         <a href="https://github.com/Rakibulhasan70"><i class="fa-brands fa-github px-4 icone"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100010324115694"><i class="fa-brands fa-facebook px-4 icone"></i></a>

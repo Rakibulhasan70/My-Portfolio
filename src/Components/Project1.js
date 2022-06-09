@@ -1,5 +1,5 @@
 import React from 'react';
-import car2 from '../../src/image/car2.jpg'
+import warehouse from '../../src/image/warehouse.png'
 import './Project1.css'
 
 const Project1 = () => {
@@ -16,14 +16,14 @@ const Project1 = () => {
                         <p className='padding'>Expressjs</p>
                         <p className='padding'>Firebase</p>
                         <div className='ms-auto socila'>
-                            <a href="https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Rakibulhasan70"> <i class="fa-brands fa-github padding   github me-3"></i></a>
-                            <a href="https://assignment-12-client-c7d17.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
+                            <a href="https://github.com/Rakibulhasan70/wareHouse-client-site"> <i class="fa-brands fa-github padding   github me-3"></i></a>
+                            <a href="https://assignment-11-client-a557f.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
 
                         </div>
                     </div>
                 </div>
                 <div className='project-image col-lg-6 mt-5 ' >
-                    <img src={car2} alt="" />
+                    <img src={warehouse} alt="" />
                 </div>
             </div>
         </div>
