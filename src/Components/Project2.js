@@ -8,10 +8,20 @@ const Project2 = () => {
         <div>
             <div className='container div diver'>
                 <div className='row '>
-                    <div className='project-img col-lg-6 mt-5 '>
+                    <div className='project-img col-lg-6 mt-5 '
+                        data-aos="fade-down-left"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
+                    >
                         <img src={gym} alt="" />
                     </div>
-                    <div className='col-lg-6  '>
+                    <div className='col-lg-6  '
+                        data-aos="fade-down-right"
+
+                        data-aos-delay="50"
+                        data-aos-duration="1500"
+                    >
                         <h4 className='Warehouse '>3. Service Provider</h4>
                         <h4 className='Warehouse-title'>Full-Stack Project</h4>
                         <p className='project-description '>But if you are try to login with fake token i can not permission to you for login. Overall this is my simple grocery website.But if you are try to login with fake token i can not permission to you for login.</p>

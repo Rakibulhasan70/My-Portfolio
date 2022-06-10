@@ -6,7 +6,12 @@ const Project1 = () => {
     return (
         <div className='container div' >
             <div className='row ' >
-                <div className='col-lg-6 des'  >
+                <div className='col-lg-6 des'
+                    data-aos="fade-down-left"
+
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                >
                     <h4 className='Menufacture '>2. Warehouse Shop</h4>
                     <h4 className='manufacture-title full'>Full-Stack Project</h4>
                     <p className='project-des '>This is My Electronic Grocery website. In this wesite i was showing my all products which is very qualityful. And i also showoing some speciall offer prodcuts. If you are not login you can not show all products and order some products and update.</p>
@@ -22,7 +27,12 @@ const Project1 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='project-image col-lg-6 mt-5 ' >
+                <div className='project-image col-lg-6 mt-5 '
+                    data-aos="fade-down-right"
+
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                >
                     <img src={warehouse} alt="" />
                 </div>
             </div>

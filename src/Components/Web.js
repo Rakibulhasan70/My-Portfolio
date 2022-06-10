@@ -4,7 +4,8 @@ import './Web.css'
 const Web = () => {
     return (
         <div className='container'>
-            <div className="row mt-5">
+            <div
+                className="row mt-5">
                 <div className="col-lg-6 col-sm-12 mt-3">
                     <h2 style={{ color: '#CCD6F6' }}> Front-End</h2>
                     <li className='stack'><span className='react'>ReactJs</span></li>

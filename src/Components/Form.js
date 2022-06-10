@@ -19,10 +19,20 @@ const Form = () => {
         <div className='container my-5' id='contact'>
             <h1 className='text-center' style={{ marginTop: '25px', color: '#8892b0' }}>Contact Form</h1>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-6"
+                    data-aos="fade-right"
+
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <img className='mt-3 contact-img' src={contact} alt="" />
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6"
+                    data-aos="fade-left"
+
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                >
                     <form onSubmit={sendEmail}>
                         <input type="text" name='name' placeholder='Name' className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }} />
                         <br />
