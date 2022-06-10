@@ -1,0 +1,34 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px
+}
+
+.project-til {
+    color: #CCD6F6;
+}
+
+.proj-des {
+    color: #8892B0;
+}
+
+.margin {
+    display: flex;
+    margin-left: -35px;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px
+    }
+
+    .proj {
+        margin-bottom: 40px;
+    }
+
+    .margin {
+        margin-left: -5px;
+    }
+}
