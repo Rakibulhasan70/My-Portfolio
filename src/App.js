@@ -11,6 +11,8 @@ import Tools from './Components/Tools';
 import Other from './Components/Other';
 import AllProjects from './Components/AllProjects';
 import Blog from './Components/Blog';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <Route path='/allprojects' element={<AllProjects></AllProjects>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }

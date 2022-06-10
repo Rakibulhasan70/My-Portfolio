@@ -2,7 +2,7 @@ import React from 'react';
 import emaijs from 'emailjs-com'
 import contact from '../../src/image/contact.png'
 import './Form.css'
-
+import { toast } from 'react-toastify';
 
 const Form = () => {
     const sendEmail = (e) => {
@@ -11,6 +11,7 @@ const Form = () => {
         emaijs.sendForm('service_ns2hbvn', 'template_39p1u2a', e.target, 'P442xSSTKMHmprr8j')
             .then(res => {
                 console.log(res);
+                toast('Email send successfully')
             })
     }
 
