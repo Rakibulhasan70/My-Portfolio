@@ -28,7 +28,7 @@ const Form = () => {
                         <br />
                         <input type="email" name="email" id="" placeholder='Email' className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }} />
                         <br />
-                        <textarea name="message" placeholder='Text Body' rows="4" className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }}></textarea>
+                        <textarea name="message" placeholder='Text Body' rows="7" className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }}></textarea>
                         <br />
                         <div className='text-center'><input className='mt-3 p-2 px-4 rounded resume' type="submit" value="Send" /></div>
                     </form>
