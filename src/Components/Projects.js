@@ -29,6 +29,7 @@ const Projects = () => {
                         You can increase your purces item within maximum quantity
                         Admin can add or deleted the prats item
 
+
                     </p>
                     <div className='feature '>
                         <p className='padding'>Reactjs</p>

@@ -81,6 +81,7 @@
     .project-description {
         text-align: start;
         padding-top: 0;
+        height: 200px;
     }
 
     .feature {
