@@ -11,9 +11,9 @@ import convention from '../../src/image/convention.png'
 const AllProjects = () => {
     return (
         <div className='container my-5 '>
-            <h2 className='about mx-auto w-50 mt-5 mb-5 my'><span className='heading'>My projects</span></h2>
+            <h2 className='about mx-auto  mt-5 mb-5 all-width'><span className='heading'>My projects</span></h2>
             <div className='section'>
-                <div className='proj'>
+                <div className='proj my-5'>
                     {/* menufacture car */}
                     <Card style={{ width: '350px' }}>
                         <Card.Img variant="top" src={menu} style={{ height: '220px' }} />
@@ -40,7 +40,7 @@ const AllProjects = () => {
                     </Card>
                 </div>
                 {/*Ware house  */}
-                <div className='proj'>
+                <div className='proj my-5'>
                     <Card style={{ width: '350px' }}>
                         <Card.Img variant="top" src={ware} style={{ height: '220px' }} />
                         <Card.Body style={{ backgroundColor: '#121b27' }}>
@@ -62,7 +62,7 @@ const AllProjects = () => {
                     </Card>
                 </div>
                 {/* service provider */}
-                <div>
+                <div className='my-5'>
                     <Card style={{ width: '350px' }}>
                         <Card.Img variant="top" src={service} style={{ height: '220px' }} />
                         <Card.Body style={{ backgroundColor: '#121b27' }}>

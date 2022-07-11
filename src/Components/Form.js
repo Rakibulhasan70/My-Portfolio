@@ -35,11 +35,11 @@ const Form = () => {
                     data-aos-duration="1000"
                 >
                     <form onSubmit={sendEmail}>
-                        <input type="text" name='name' placeholder='Name' className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }} />
+                        <input type="text" name='name' placeholder='Name' className='mx-auto w-100 p-3 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white', borderRadius: '5px' }} />
                         <br />
-                        <input type="email" name="email" id="" placeholder='Email' className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }} />
+                        <input type="email" name="email" id="" placeholder='Email' className='mx-auto w-100 p-3 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white', borderRadius: '5px' }} />
                         <br />
-                        <textarea name="message" placeholder='Text Body' rows="7" className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white' }}></textarea>
+                        <textarea name="message" placeholder='Text Body' rows="8" className='mx-auto w-100 p-2 mt-3' style={{ backgroundColor: '#CCD6F6', border: '1px solid white', borderRadius: '5px' }}></textarea>
                         <br />
                         <div className='text-center'><input className='mt-3 p-2 px-4 rounded resume' type="submit" value="Send" /></div>
                     </form>

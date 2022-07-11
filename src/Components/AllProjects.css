@@ -22,6 +22,10 @@
     margin-bottom: 90px !important;
 }
 
+.all-width {
+    width: 50%;
+}
+
 @media only screen and (max-width: 576px) {
     .section {
         grid-template-columns: repeat(1, 1fr);
@@ -34,5 +38,9 @@
 
     .margin {
         margin-left: -5px;
+    }
+
+    .all-width {
+        width: 80%;
     }
 }
