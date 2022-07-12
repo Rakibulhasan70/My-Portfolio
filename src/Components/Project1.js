@@ -20,7 +20,7 @@ const Project1 = () => {
                         <p className='padding'>NodeJs</p>
                         <p className='padding'>Expressjs</p>
                         <p className='padding'>Firebase</p>
-                        <div className='ms-auto socila'>
+                        <div className='ms-auto socila project-icon'>
                             <a href="https://github.com/Rakibulhasan70/wareHouse-client-site"> <i class="fa-brands fa-github padding   github me-3"></i></a>
                             <a href="https://assignment-11-client-a557f.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
 

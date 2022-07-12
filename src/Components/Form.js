@@ -18,7 +18,6 @@ const Form = () => {
 
     return (
         <div className='container my-5' id='contact'>
-            <h1 className='text-center' style={{ marginTop: '25px', color: '#8892b0' }}>Contact Form</h1>
             <div className="row">
                 <div className="col-lg-6"
                     data-aos="fade-right"

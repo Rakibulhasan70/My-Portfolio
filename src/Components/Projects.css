@@ -74,14 +74,16 @@
     }
 
     .project-img img {
-        width: 100%;
+        width: 350px;
         height: 200px;
     }
 
     .project-description {
         text-align: start;
-        padding-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
         height: 200px;
+        width: 350px;
     }
 
     .feature {
@@ -99,5 +101,9 @@
 
     .padding {
         padding-left: 8px;
+    }
+
+    .project-icon {
+        margin-right: 20px;
     }
 }

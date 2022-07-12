@@ -30,7 +30,7 @@ const Project2 = () => {
                             <p className='padding'>Router</p>
                             <p className='padding'>Bootstarp</p>
                             <p className='padding'>Toastify</p>
-                            <div className='ms-auto d-flex'>
+                            <div className='ms-auto d-flex project-icon'>
                                 <a href="https://github.com/Rakibulhasan70/Independent-service-provider"> <i class="fa-brands fa-github padding   github me-3"></i></a>
                                 <a href="https://assignment-10-eecce.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
                             </div>

@@ -36,7 +36,7 @@ const Projects = () => {
                         <p className='padding'>NodeJs</p>
                         <p className='padding'>Expressjs</p>
                         <p className='padding'>Firebase</p>
-                        <div className='ms-auto '>
+                        <div className='ms-auto project-icon'>
                             <a href="https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Rakibulhasan70"> <i class="fa-brands fa-github padding   github me-3"></i></a>
                             <a href="https://assignment-12-client-c7d17.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
                         </div>

@@ -12,6 +12,12 @@ const GetTouch = () => {
                         always open Whether you have a question or just want to say hi, I'll try
                         <br />
                         my best to get back to you!</p>
+                    <div className='my-3 icons getTouch'>
+                        <a href="https://github.com/Rakibulhasan70"><i class="fa-brands fa-github px-4 icone"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100010324115694"><i class="fa-brands fa-facebook px-4 icone"></i></a>
+                        <a href="https://www.linkedin.com/in/rakibul-hasan-sohag-90b207231/"><i class="fa-brands fa-linkedin px-4 icone"></i></a>
+                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp-square px-4 icone"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
