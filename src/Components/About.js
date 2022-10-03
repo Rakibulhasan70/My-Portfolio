@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../src/image/sohag.jpg'
+import img from '../../src/image/formal-removebg-preview (1).jpg'
 import './About.css'
 
 const About = () => {
