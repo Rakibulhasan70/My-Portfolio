@@ -7,6 +7,7 @@ import Project1 from './Project1';
 import Project2 from './Project2';
 import Form from './Form';
 import GetTouch from './GetTouch';
+import EasyDocPoject from './EasyDocPoject';
 const Home = () => {
     return (
         <div className='container mt-4 text-white'>
@@ -48,8 +49,10 @@ const Home = () => {
                 <Outlet></Outlet>
             </div>
             <Projects></Projects>
+            <EasyDocPoject></EasyDocPoject>
             <Project1></Project1>
-            <Project2></Project2>
+            {/* <Project2></Project2> */}
+
             <GetTouch></GetTouch>
             <Form></Form>
         </div>

@@ -7,12 +7,37 @@ import service from '../../src/image/service.png'
 import laptop from '../../src/image/laptop.png'
 import pretty from '../../src/image/pretty.png'
 import convention from '../../src/image/convention.png'
+import easydoc from '../../src/image/easydoc.png'
 
 const AllProjects = () => {
     return (
         <div className='container my-5 '>
             <h2 className='about mx-auto  mt-5 mb-5 all-width'><span className='heading'>My projects</span></h2>
             <div className='section'>
+                <div className='proj my-5'>
+                    {/* EasyDoc */}
+                    <Card style={{ width: '350px' }}>
+                        <Card.Img variant="top" src={easydoc} style={{ height: '220px' }} />
+                        <Card.Body style={{ backgroundColor: '#121b27' }}>
+                            <Card.Title className='project-til'>EasyDoc</Card.Title>
+                            <Card.Text className='proj-des'>
+                                User can add a review, send an email, ask any qus and leave comments on various blogs, tutorials, courses, and paid purchase among other things.User can add a review, send an email, ask any qus and leave comments on
+                                various blogs, tutorials, courses, and paid purchase among other things.
+                                <div className='margin mt-3'>
+                                    <p className='padding'>Reactjs</p>
+                                    <p className='padding'>NodeJs</p>
+                                    <p className='padding'>MaterialUi</p>
+                                    <p className='padding'>Recharts</p>
+                                </div>
+                                <div className='ms-start  mt-1'>
+                                    <a href="https://github.com/Rakibulhasan70/EasyDoc-Client"> <i class="fa-brands fa-github  github"></i></a>
+                                    <a href="https://endgame-53c9b.web.app/"><i class="fa-solid fa-arrow-up-right-from-square github ms-3"></i></a>
+                                </div>
+
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
                 <div className='proj my-5'>
                     {/* menufacture car */}
                     <Card style={{ width: '350px' }}>

@@ -24,7 +24,7 @@
     box-shadow: 0px 10px 30px -15px rgba(2, 12, 27, 0.7);
     position: relative;
     z-index: 2;
-    height: 150px;
+    /* height: 150px; */
     padding: 25px;
     color: #a8b2d1;
     font-size: 18px;
@@ -82,7 +82,7 @@
         text-align: start;
         padding-top: 10px;
         padding-bottom: 10px;
-        height: 200px;
+        /* height: 200px; */
         width: 350px;
     }
 
@@ -104,6 +104,6 @@
     }
 
     .project-icon {
-        margin-right: 20px;
+        margin-right: 8px;
     }
 }
