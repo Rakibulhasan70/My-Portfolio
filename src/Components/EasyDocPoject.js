@@ -22,7 +22,7 @@ const EasyDocPoject = () => {
                         data-aos-delay="50"
                         data-aos-duration="1500"
                     >
-                        <h4 className='Warehouse '>2. EasyDoc</h4>
+                        <h4 className='Warehouse '>3. EasyDoc</h4>
                         <h4 className='Warehouse-title'>Full-Stack Project</h4>
                         <p className='project-description '>User can add a review, send an email, ask any qus and leave comments on various blogs, tutorials, courses, and paid purchase among other things.User can add a review, send an email, ask any qus and leave comments on
                             various blogs, tutorials, courses, and paid purchase among other things.
@@ -39,6 +39,8 @@ const EasyDocPoject = () => {
                         </div>
 
                     </div>
+                    <Link to='/allprojects'> <button className='skills more'>show more</button></Link>
+
                 </div>
             </div>
         </div>

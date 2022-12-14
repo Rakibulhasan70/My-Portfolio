@@ -49,8 +49,8 @@ const Home = () => {
                 <Outlet></Outlet>
             </div>
             <Projects></Projects>
-            <EasyDocPoject></EasyDocPoject>
             <Project1></Project1>
+            <EasyDocPoject></EasyDocPoject>
             {/* <Project2></Project2> */}
 
             <GetTouch></GetTouch>

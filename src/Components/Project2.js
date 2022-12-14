@@ -22,7 +22,7 @@ const Project2 = () => {
                         data-aos-delay="50"
                         data-aos-duration="1500"
                     >
-                        <h4 className='Warehouse '>3. Service Provider</h4>
+                        <h4 className='Warehouse '>2. Service Provider</h4>
                         <h4 className='Warehouse-title'>Full-Stack Project</h4>
                         <p className='project-description '>But if you are try to login with fake token i can not permission to you for login. Overall this is my simple grocery website.But if you are try to login with fake token i can not permission to you for login.</p>
                         <div className='feature '>
